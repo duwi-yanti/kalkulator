@@ -1,0 +1,152 @@
+html{
+    box-sizing: Border-box;
+    /* membuat suatu box */
+  height: 100%;
+  /* mengatur tinggi */
+  }
+  *,
+  *::before,
+  *::aafter{
+    box-sizing: inherit ;
+    /* membuat suatu box */
+    margin:0;
+    /* memberikan jarak */
+    padding:0;
+    /* membuat ruang di sekitar konten elemen */
+  }
+  body{
+    align-items: center;
+    /* mengubah posisi */
+    background:#6B8E23;
+    /* memassukan warna latar belakang */
+    display: flex ;
+    /* mengatur tampilan suatu elemen */
+    font-family: 'Dosis', Sans-Serif ;
+    /* mengatur jenis font */
+    font-display: swap ;
+    /* menentukan bagaimana tampilan font ditampilkan */
+    height: inherit ;
+    /* mengatur tinggi dan lebar */
+    justify-content: center ;
+    /* menyesuaikan pembagian ruang yg tersisa */
+    
+  }
+  .wrapper{
+    backdrop-filter: blur(5.5px) ;
+    /* membuat latar belakang transfaran */
+    -webkit-backdrop-filter: blur(5.5px) ;
+    border-radius: 16px ;
+    /* untuk membuat sudut bulat */
+    box-shadow: 0 4px 30px rgba(35,35,35,0.1);
+    /* menambahkan bayangan pada seperti kotak atau texs */
+    color: #232323;
+    /* menampilkan kode warna */
+    backdrop-filter: blur(4px);
+    /* membuat latar belakang transfaran */
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(255,255,2555,0.30);
+    /* memasukkan warna latar belakang */
+    border: 1px solid rgba(255,255,255,0.34);
+    /* garis batas yang digunakan di setiap elemen */
+    flex-basis: 400px;
+    /* menentukan ukuran awal dari elemen flex */
+    height: 540px ;
+    /* mengatur tinggi dan lebar */
+    padding: 20px 35px ;
+    /* membuat ruang di sekitar konten elemen */
+  }
+  .screen{
+    backdrop-filter: blur(5.5px) ;
+    /* membuat latar blakang transfaran */
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255,255,255,0.75) ;
+    /* memasukkan warna latar belakang */
+    background: 1px solid rgba(255,255,255,0.01) ;
+    /* memasukkan arna latar belakang */
+    border-radius:16px ;
+    /* untuk membuat sudut bulat */
+    box-shadow: 0 4px 30px rgba(35,35,35,0.1) ;
+    /* menambahkan bayangan pada seperti kotak atau texs */
+    color: #232323;
+    /* menampilkan kode warna */
+    font-size: 35px ;
+    /* mengatur ukuran huruf */
+    overflow: auto ;
+    /* alat untuk mengeloh bagaimana konten yang melampaui batas elemen akan ditampilkan */
+    padding: 20px ;
+    /* membuat ruang disekitar konten elemen */
+    text-align: right ;
+    /* mendapatkan tampilan texs yang berbeda */
+    width: 326px ;
+    /* mengatur lebar horizntal tabel  atau sel */
+  }
+  .calc-button-row{
+    display: flex ;
+    /* mengatur tampilan suatu elemen */
+    justify-content: space-between ;
+    /* menyesuaikan pembagian ruang yang tersisa  */
+    margin: 5% 0;
+    /* memeberikan jarak */
+  }
+  .calc-button{
+    backdrop-filter: blur(5.5px) ;
+    /* membuat latar belakang transfaran */
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255,255,255,0.75) ;
+    /* memasukkan warna latar belakang */
+    border: 1px solid rgba(255,255,255,0.01);
+    /* garais batas yang bisa digunakan  disetiap elemen */
+    border-radius: 16px ;
+    /* untuk memebuat sudut bulat */
+    box-shadow: 0 4px rgba(255,255,255,0.01);
+    /* menambahkan bayangan pada seperti kotak atau texs */
+    color: #232323 ;
+    /* menampilkan kode warna */
+    flex-basis: 20% ;
+    /* menentukan ukuran awal dari elemen flext */
+    font-family: inherit ;
+    /* mnentukan jenis font */
+    font-size: 24px ;
+    /* mengatur ukuran huruf */
+    height: 65px ;
+    /* mengatur tinggi dan lebar */
+  }
+  .calc-button:last-child{
+    backdrop-filter: blur(5.5px) ;
+    /* membuat latar belakang transfaran */
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255,255,255,0.75) ;
+    /* memasukkan warna latar belakang */
+    border: 1px solid rgba(255,255,255,0.01);
+    /* garais batas yang bisa digunakan  disetiap elemen */
+    border-radius: 16px ;
+    /* untuk memebuat sudut bulat */
+    box-shadow: 0 4px rgba(255,255,255,0.01);
+    /* menambahkan bayangan pada seperti kotak atau texs */
+    color: #232323 ;
+    /* menampilkan kode warna */
+    background: #DB7093;
+    /* memasukkan warna latar belakang */
+  }
+  .calc-button:last-child:hover{
+    background-color: inherit ;
+    /* untuk menentukan warna pada halaman html */
+    color: inherit ;
+    /* menampilkan kode warna */
+  }
+  .calc-button:hover{
+    background-color: inherit ;
+     /* untuk menentukan warna pada halaman html */ 
+  }
+  .calc-button:active{
+    background-color: #fff;
+    /* untuk menentukan warna pada halaman html */ 
+  }
+  .double{
+    flex-basis: 47% ;
+    /* menentukan ukuran awak dari halaman flex */
+  }
+  .triple{
+    flex-basis: 73%;
+     /* menentukan ukuran awak dari halaman flex */
+  }
